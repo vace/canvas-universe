@@ -1,0 +1,58 @@
+$$	/Users/vace/MyGithub/canvas-universe/scripts/tools.js	/^function $$(){}$/;"	function	line:1
+$$	/Users/vace/MyGithub/canvas-universe/scripts/tools.js	/^function $$(){}$/;"	function	line:1
+random	/Users/vace/MyGithub/canvas-universe/scripts/tools.js	/^$$.random = function(min,max){$/;"	function	line:5
+$$	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^function $$(){}$/;"	function	line:1
+$$	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^function $$(){}$/;"	function	line:1
+gid	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.gid = function(e){return document.getElementById(e)}$/;"	function	line:2
+$$.gid	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^function $$(){}$/;"	function	line:1
+qs	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.qs = function(e){return document.querySelector(e)}$/;"	function	line:3
+$$.qs	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.gid = function(e){return document.getElementById(e)}$/;"	function	line:2
+qsa	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.qsa = function(e){document.querySelectorAll(e)}$/;"	function	line:4
+$$.qsa	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.qs = function(e){return document.querySelector(e)}$/;"	function	line:3
+random	/Users/vace/MyGithub/canvas-universe/scripts/utils.js	/^$$.random = function(min,max){$/;"	function	line:5
+View	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    function View(el,width,height){$/;"	function	line:8
+reset	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    pt.reset = function(){}$/;"	function	line:22
+add	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    pt.add = function(obj){$/;"	function	line:23
+pause	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    pt.pause = function(pause){$/;"	function	line:27
+$render	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    pt.$render = function(){$/;"	function	line:30
+_render	/Users/vace/MyGithub/canvas-universe/scripts/main-render.js	/^    pt._render = function(){$/;"	function	line:37
+Star	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    function Star(width,height){$/;"	function	line:7
+reset	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    Star.prototype.reset = function () {$/;"	function	line:18
+$render	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    Star.prototype.$render = function(ctx){$/;"	function	line:34
+Stars	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    function Stars(width,height){$/;"	function	line:80
+reset	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    Stars.prototype.reset = function () {$/;"	function	line:90
+$render	/Users/vace/MyGithub/canvas-universe/scripts/stars-render.js	/^    Stars.prototype.$render = function(ctx){$/;"	function	line:102
+Meteor	/Users/vace/MyGithub/canvas-universe/scripts/meteor-render.js	/^    function Meteor(){$/;"	function	line:2
+Meteors	/Users/vace/MyGithub/canvas-universe/scripts/meteor-render.js	/^    function Meteors(){$/;"	function	line:6
+Meteor	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    function Meteor(width,height){$/;"	function	line:2
+reset	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    Meteor.prototype.reset = function(){$/;"	function	line:7
+$render	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    Meteor.prototype.$render = function(ctx,scource){$/;"	function	line:16
+Meteors	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    function Meteors(el,width,height){$/;"	function	line:26
+reset	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    mpt.reset = function(){$/;"	function	line:35
+$render	/Users/vace/MyGithub/canvas-universe/scripts/meteors-render.js	/^    mpt.$render = function(ctx){$/;"	function	line:41
+ImgRender	/Users/vace/MyGithub/canvas-universe/scripts/image-render.js	/^    function ImgRender(el,x,y,scale){$/;"	function	line:2
+$render	/Users/vace/MyGithub/canvas-universe/scripts/image-render.js	/^    ImgRender.prototype.$render = function(ctx){$/;"	function	line:11
+html	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<html lang="zh-CN">$/;"	function	line:2
+head	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<head>$/;"	function	line:3
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta charset="UTF-8">$/;"	function	line:5
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" \/>$/;"	function	line:6
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="renderer" content="webkit">$/;"	function	line:7
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta http-equiv="Cache-Control" content="no-siteapp" \/>$/;"	function	line:8
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="apple-mobile-web-app-title" content="vace"\/>$/;"	function	line:9
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="format-detection" content="telephone=no" \/>$/;"	function	line:10
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^	<meta name="msapplication-tap-highlight" content="no" \/>$/;"	function	line:11
+meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">$/;"	function	line:12
+title	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <title>earth-sky 地球天空 🌐<\/title>$/;"	function	line:13
+link	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <link rel="stylesheet" href="styles\/app.css">$/;"	function	line:14
+body	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<body>$/;"	function	line:16
+canvas	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <canvas id="view"><\/canvas>$/;"	function	line:18
+div	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <div class="hidden">$/;"	function	line:21
+img	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^        <img src="images\/moon.png" id="moon">$/;"	function	line:22
+img	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^        <img src="images\/meteor.png" id="meteor">$/;"	function	line:23
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/vendor.js"><\/script>$/;"	function	line:27
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/utils.js"><\/script>$/;"	function	line:28
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/stars-render.js"><\/script>$/;"	function	line:30
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/meteors-render.js"><\/script>$/;"	function	line:32
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/image-render.js"><\/script>$/;"	function	line:33
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/main-render.js"><\/script>$/;"	function	line:34
+script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script type="text\/javascript">$/;"	function	line:36

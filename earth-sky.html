@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!--author:Vace_Vlm(ocdo@qq.com),create:2016年4月15日 下午11:52-->
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-title" content="vace"/>
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>earth-sky 地球天空 🌐</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <!-- 地球的天空,有个银河系,有些流星,有个月亮 -->
+    <canvas id="view"></canvas>
+
+    <!-- 加载meteor 和 moon -->
+    <div class="hidden">
+        <img src="images/moon.png" id="moon">
+        <img src="images/meteor.png" id="meteor">
+    </div>
+
+    <!-- 工具 -->
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/utils.js"></script>
+    <!-- 星星 -->
+    <script src="scripts/stars-render.js"></script>
+    <!-- 流星 -->
+    <script src="scripts/meteors-render.js"></script>
+    <script src="scripts/image-render.js"></script>
+    <script src="scripts/main-render.js"></script>
+
+    <script type="text/javascript">
+    var W = window.innerWidth * 1.5,
+        H = window.innerHeight * 1.5
+
+
+    window.onload = function(){
+        //主场景
+        var render = new MainRender($$.gid('view'),W,H)
+        //星星
+        var stars = new StarsRender(W,H)
+        //月亮
+        var moon = new ImageRender($$.gid('moon'),W / 4, H /4)
+        // 流星
+        var meteors = new MeteorsRender($$.gid('meteor'),W,H)
+        render.add(stars)
+              .add(meteors)
+              .add(moon)
+              .$render()
+    }
+    </script>
+</body>
+</html>

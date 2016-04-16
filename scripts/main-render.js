@@ -39,7 +39,9 @@ var MainRender = (function(){
         ctx.clearRect(0,0,self.width,self.height)
         for(var i = 0; i < _len ; i++){
             render = renders[i]
+            ctx.save()
             render.$render.call(render,ctx)
+            ctx.restore()
         }
     }
 

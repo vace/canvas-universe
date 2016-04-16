@@ -100,12 +100,10 @@ var StarsRender = (function(){
      * @return {[type]}     [description]
      */
     Stars.prototype.$render = function(ctx){
-        ctx.save()
         var stars = this.stars
         for(var i = 0,_len = stars.length; i < _len ; i++){
             stars[i].$render(ctx)
         }
-        ctx.restore()
     }
     return Stars
 })()

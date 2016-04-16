@@ -4,27 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-html	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<html lang="zh-CN">$/;"	function	line:2
-head	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<head>$/;"	function	line:3
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta charset="UTF-8">$/;"	function	line:5
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" \/>$/;"	function	line:6
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="renderer" content="webkit">$/;"	function	line:7
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta http-equiv="Cache-Control" content="no-siteapp" \/>$/;"	function	line:8
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="apple-mobile-web-app-title" content="vace"\/>$/;"	function	line:9
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="format-detection" content="telephone=no" \/>$/;"	function	line:10
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^	<meta name="msapplication-tap-highlight" content="no" \/>$/;"	function	line:11
-meta	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">$/;"	function	line:12
-title	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <title>earth-sky 地球天空 🌐<\/title>$/;"	function	line:13
-link	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <link rel="stylesheet" href="styles\/app.css">$/;"	function	line:14
-body	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^<body>$/;"	function	line:16
-canvas	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <canvas id="view"><\/canvas>$/;"	function	line:18
-div	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <div class="hidden">$/;"	function	line:21
-img	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^        <img src="images\/moon.png" id="moon">$/;"	function	line:22
-img	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^        <img src="images\/meteor.png" id="meteor">$/;"	function	line:23
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/vendor.js"><\/script>$/;"	function	line:27
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/utils.js"><\/script>$/;"	function	line:28
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/stars-render.js"><\/script>$/;"	function	line:30
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/meteors-render.js"><\/script>$/;"	function	line:32
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/image-render.js"><\/script>$/;"	function	line:33
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script src="scripts\/main-render.js"><\/script>$/;"	function	line:34
-script	/Users/vace/MyGithub/canvas-universe/earth-sky.html	/^    <script type="text\/javascript">$/;"	function	line:36
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^function SystemToTheMoon(earth,moon,width,height){$/;"	function	line:3
+$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	function	line:11
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^}$/;"	class	line:9
+SystemToTheMoon.$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	method	line:11

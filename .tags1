@@ -4,7 +4,7 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-EarthAndSun	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^function EarthAndSun(sun,earth,moon,width,height){$/;"	function	line:1
-$render	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^EarthAndSun.prototype.$render = function (ctx) {$/;"	function	line:10
-EarthAndSun	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^}$/;"	class	line:8
-EarthAndSun.$render	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^EarthAndSun.prototype.$render = function (ctx) {$/;"	method	line:10
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^function SystemToTheMoon(earth,moon,width,height){$/;"	function	line:3
+$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	function	line:11
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^}$/;"	class	line:9
+SystemToTheMoon.$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	method	line:11

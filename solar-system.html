@@ -19,8 +19,17 @@
 
     <!-- 加载meteor 和 moon -->
     <div class="hidden">
-        <img src="images/moon.png" id="moon">
+        <img src="images/sun.png" id="sun">
+        <img src="images/mercury.png" id="mercury">
+        <img src="images/venus.png" id="venus">
         <img src="images/earth.png" id="earth">
+        <img src="images/mars.png" id="mars">
+        <img src="images/jupiter.png" id="jupiter">
+        <img src="images/saturn.png" id="saturn">
+        <img src="images/uranus.png" id="uranus">
+        <img src="images/neptune.png" id="neptune">
+
+        <img src="images/moon.png" id="moon">
         <img src="images/meteor.png" id="meteor">
     </div>
 
@@ -31,13 +40,13 @@
     <script src="scripts/stars-render.js"></script>
     <!-- 流星 -->
     <script src="scripts/meteors-render.js"></script>
-    <!-- 地月系 -->
-    <script src="scripts/system-to-the-moon.js"></script>
+    <!-- 太阳系 -->
+    <script src="scripts/solar-system.js"></script>
     <script src="scripts/main-render.js"></script>
 
     <script type="text/javascript">
-    var W = window.innerWidth * 1.5,
-        H = window.innerHeight * 1.5
+    var W = window.innerWidth * 2,
+        H = window.innerHeight * 2
 
 
     window.onload = function(){
@@ -46,12 +55,12 @@
         //星星
         var stars = new StarsRender(W,H)
 
-        var system = new SystemToTheMoon($$.gid('earth'),$$.gid('moon'),W,H)
+        var solar = new SolarSystem($$.gid('sun'),[],W,H)
         // 流星
         var meteors = new MeteorsRender($$.gid('meteor'),W,H)
         render.add(stars)
               .add(meteors)
-              .add(system)
+              .add(solar)
               .$render()
     }
     </script>

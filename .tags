@@ -87,35 +87,6 @@ script	/Users/vace/MyGithub/canvas-universe/system-to-the-moon.html	/^    <scrip
 script	/Users/vace/MyGithub/canvas-universe/system-to-the-moon.html	/^    <script src="scripts\/system-to-the-moon.js"><\/script>$/;"	function	line:43
 script	/Users/vace/MyGithub/canvas-universe/system-to-the-moon.html	/^    <script src="scripts\/main-render.js"><\/script>$/;"	function	line:44
 script	/Users/vace/MyGithub/canvas-universe/system-to-the-moon.html	/^    <script type="text\/javascript">$/;"	function	line:46
-SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^function SystemToTheMoon(earth,moon,width,height){$/;"	function	line:3
-$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	function	line:11
-SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^}$/;"	class	line:9
-SystemToTheMoon.$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	method	line:11
-html	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<html lang="zh-CN">$/;"	function	line:2
-head	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<head>$/;"	function	line:3
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta charset="UTF-8">$/;"	function	line:5
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" \/>$/;"	function	line:6
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="renderer" content="webkit">$/;"	function	line:7
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta http-equiv="Cache-Control" content="no-siteapp" \/>$/;"	function	line:8
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="apple-mobile-web-app-title" content="vace"\/>$/;"	function	line:9
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="format-detection" content="telephone=no" \/>$/;"	function	line:10
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^	<meta name="msapplication-tap-highlight" content="no" \/>$/;"	function	line:11
-meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">$/;"	function	line:12
-title	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <title>太阳系<\/title>$/;"	function	line:13
-link	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <link rel="stylesheet" href="styles\/app.css">$/;"	function	line:14
-body	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<body>$/;"	function	line:16
-canvas	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <canvas id="view"><\/canvas>$/;"	function	line:18
-div	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <div class="hidden">$/;"	function	line:21
-img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/moon.png" id="moon">$/;"	function	line:22
-img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/earth.png" id="earth">$/;"	function	line:23
-img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/meteor.png" id="meteor">$/;"	function	line:24
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/vendor.js"><\/script>$/;"	function	line:28
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/utils.js"><\/script>$/;"	function	line:29
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/stars-render.js"><\/script>$/;"	function	line:31
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/meteors-render.js"><\/script>$/;"	function	line:33
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/system-to-the-moon.js"><\/script>$/;"	function	line:35
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/main-render.js"><\/script>$/;"	function	line:36
-script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script type="text\/javascript">$/;"	function	line:38
 SolarSystem	/Users/vace/MyGithub/canvas-universe/scripts/solar-syetem.js	/^function SolarSystem(){$/;"	function	line:1
 SolarSystem	/Users/vace/MyGithub/canvas-universe/scripts/solar-syetem.js	/^function SolarSystem(){$/;"	function	line:1
 html	/Users/vace/MyGithub/canvas-universe/earth-and-sun.html	/^<html lang="zh-CN">$/;"	function	line:2
@@ -148,3 +119,49 @@ EarthAndSun	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^func
 $render	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^EarthAndSun.prototype.$render = function (ctx) {$/;"	function	line:10
 EarthAndSun	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^}$/;"	class	line:8
 EarthAndSun.$render	/Users/vace/MyGithub/canvas-universe/scripts/earth-and-sun.js	/^EarthAndSun.prototype.$render = function (ctx) {$/;"	method	line:10
+html	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<html lang="zh-CN">$/;"	function	line:2
+head	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<head>$/;"	function	line:3
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta charset="UTF-8">$/;"	function	line:5
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" \/>$/;"	function	line:6
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="renderer" content="webkit">$/;"	function	line:7
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta http-equiv="Cache-Control" content="no-siteapp" \/>$/;"	function	line:8
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="apple-mobile-web-app-title" content="vace"\/>$/;"	function	line:9
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="format-detection" content="telephone=no" \/>$/;"	function	line:10
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^	<meta name="msapplication-tap-highlight" content="no" \/>$/;"	function	line:11
+meta	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">$/;"	function	line:12
+title	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <title>太阳系<\/title>$/;"	function	line:13
+link	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <link rel="stylesheet" href="styles\/app.css">$/;"	function	line:14
+body	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^<body>$/;"	function	line:16
+canvas	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <canvas id="view"><\/canvas>$/;"	function	line:18
+div	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <div class="hidden">$/;"	function	line:21
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/sun.png" id="sun">$/;"	function	line:22
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/mercury.png" id="mercury">$/;"	function	line:23
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/venus.png" id="venus">$/;"	function	line:24
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/earth.png" id="earth">$/;"	function	line:25
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/mars.png" id="mars">$/;"	function	line:26
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/jupiter.png" id="jupiter">$/;"	function	line:27
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/saturn.png" id="saturn">$/;"	function	line:28
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/uranus.png" id="uranus">$/;"	function	line:29
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/neptune.png" id="neptune">$/;"	function	line:30
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/moon.png" id="moon">$/;"	function	line:32
+img	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^        <img src="images\/meteor.png" id="meteor">$/;"	function	line:33
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/vendor.js"><\/script>$/;"	function	line:37
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/utils.js"><\/script>$/;"	function	line:38
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/stars-render.js"><\/script>$/;"	function	line:40
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/meteors-render.js"><\/script>$/;"	function	line:42
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/solar-system.js"><\/script>$/;"	function	line:44
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script src="scripts\/main-render.js"><\/script>$/;"	function	line:45
+script	/Users/vace/MyGithub/canvas-universe/solar-system.html	/^    <script type="text\/javascript">$/;"	function	line:47
+gid	/Users/vace/MyGithub/canvas-universe/scripts/solar-system.js	/^    var gid = function(e){return document.getElementById(e)}$/;"	function	line:18
+Planet	/Users/vace/MyGithub/canvas-universe/scripts/solar-system.js	/^    function Planet(planetid,size,rotation,revolution,direction){$/;"	function	line:28
+$render	/Users/vace/MyGithub/canvas-universe/scripts/solar-system.js	/^    Planet.prototype.$render = function(ctx,ind){$/;"	function	line:42
+Solar	/Users/vace/MyGithub/canvas-universe/scripts/solar-system.js	/^    function Solar(sun,planets,width,height){$/;"	function	line:63
+$render	/Users/vace/MyGithub/canvas-universe/scripts/solar-system.js	/^    Solar.prototype.$render = function (ctx) {$/;"	function	line:83
+*	/Users/vace/MyGithub/canvas-universe/styles/app.less	/^*{$/;"	function	line:1
+html,body	/Users/vace/MyGithub/canvas-universe/styles/app.less	/^html,body{$/;"	function	line:4
+#view	/Users/vace/MyGithub/canvas-universe/styles/app.less	/^#view{$/;"	function	line:9
+.hidden	/Users/vace/MyGithub/canvas-universe/styles/app.less	/^.hidden{$/;"	function	line:16
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^function SystemToTheMoon(earth,moon,width,height){$/;"	function	line:3
+$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	function	line:11
+SystemToTheMoon	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^}$/;"	class	line:9
+SystemToTheMoon.$render	/Users/vace/MyGithub/canvas-universe/scripts/system-to-the-moon.js	/^SystemToTheMoon.prototype.$render = function(ctx){$/;"	method	line:11

@@ -29,6 +29,7 @@
         <img src="images/uranus.png" id="uranus">
         <img src="images/neptune.png" id="neptune">
 
+        <img src="images/satellite-xs.png" id="satellite">
         <img src="images/moon.png" id="moon">
         <img src="images/meteor.png" id="meteor">
     </div>
@@ -41,7 +42,7 @@
     <!-- 流星 -->
     <script src="scripts/meteors-render.js"></script>
     <!-- 太阳系 -->
-    <script src="scripts/solar-system.js"></script>
+    <script src="scripts/solar-system-with-satellite.js"></script>
     <script src="scripts/main-render.js"></script>
 
     <script type="text/javascript">
@@ -55,7 +56,7 @@
         //星星
         var stars = new StarsRender(W,H)
 
-        var solar = new SolarSystem(W,H)
+        var solar = new SolarSystemWithSatellite(W,H)
         // 流星
         var meteors = new MeteorsRender($$.gid('meteor'),W,H)
         render.add(stars)

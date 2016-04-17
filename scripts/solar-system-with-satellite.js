@@ -27,9 +27,15 @@ var SolarSystemWithSatellite = (function(){
         this.speed = $$.random(0.02,0.1)
     }
     Satellite.prototype.$render = function(ctx){
+        var r = 120 + (this.ind * 10)
         // ctx.translate(this.width / 2 , this.height / 2)
         ctx.rotate(this.rotation+=this.speed)
-        ctx.translate(0,120 + (this.ind * 10))
+        ctx.fillStyle = 'rgba(0,0,0,0.4)'
+        ctx.strokeStyle = 'rgba(255,255,255,0.4)'
+        ctx.beginPath()
+        ctx.arc(0, 0,r,0,Math.PI*2,false)
+        ctx.stroke()
+        ctx.translate(0,r)
         ctx.drawImage(this.img,0,0)
     }
     /**
@@ -65,9 +71,9 @@ var SolarSystemWithSatellite = (function(){
             w = this.width,
             h = this.height
 
-        ctx.beginPath();
+        ctx.beginPath()
         ctx.arc(0, 0,r,0,Math.PI*2,false)
-        ctx.stroke();
+        ctx.stroke()
 
         self.revolution += self.revolution_speed
         self.rotation += self.rotation_speed * this.direction

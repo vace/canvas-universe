@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<!--author:Vace_Vlm(ocdo@qq.com),create:2016年4月15日 下午11:52-->
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-title" content="vace"/>
+    <meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>双星系统</title>
+    <link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+    <!-- 双星系统是指由两颗恒星组成，相对于其他恒星来说，位置看起来非常靠近的天体系统，联星是指两颗恒星各自在轨道上环绕着共同质量中心的恒星系统。双星可以当成联星的同义词，但一般而言，双星可以是联星，也可以是没有物理关联性，只是从地球观察是在一起的光学双星。 -->
+    <canvas id="view"></canvas>
+
+    <!-- 加载meteor 和 moon -->
+    <div class="hidden">
+        <img src="images/sun.png" id="sun">
+    </div>
+
+    <!-- 工具 -->
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/utils.js"></script>
+    <!-- 星星 -->
+    <script src="scripts/stars-render.js"></script>
+    <!-- 太阳系 -->
+    <script src="scripts/binary-system.js"></script>
+    <script src="scripts/main-render.js"></script>
+
+    <script type="text/javascript">
+    var W = window.innerWidth * 2,
+        H = window.innerHeight * 2
+
+
+    window.onload = function(){
+        //主场景
+        var render = new MainRender($$.gid('view'),W,H)
+        //星星
+        var stars = new StarsRender(W,H)
+
+        var binary = new BinarySystem(W,H)
+
+        render.add(stars)
+              .add(binary)
+              .$render()
+    }
+    </script>
+</body>
+</html>
